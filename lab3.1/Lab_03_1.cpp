@@ -31,6 +31,19 @@ int main()
 	cout << endl;
 	cout << "y = " << y << endl;
 
+	if (x < -3.5)
+		B = 4 + pow(x, -2);
+	else
+		if (x >= 1)
+			B = tan(3.5 + x) / 5;
+		else
+			B = sin(3 * x) - cos(x);
+
+	y = A + B;
+
+	cout << "2) y = " << y << endl;
+	cin.get();
+
 	return 0;
 }
 	
